@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netstandard1.5;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.5;netstandard2.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
     <Description>Adds OpenTracing instrumentation for .NET Standard apps that use GRPC.</Description>
     <PackageTags>opentracing;distributed-tracing;tracing;grpc;netstandard</PackageTags>
@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <!-- Main dependencies -->
-    <PackageReference Include="Grpc" Version="2.23.1" />
+    <PackageReference Include="Grpc" Version="2.25.0" />
     <PackageReference Include="OpenTracing" Version="0.12.1" />
   </ItemGroup>
 
